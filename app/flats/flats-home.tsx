@@ -17,7 +17,7 @@ export default function FlatsHome() {
   return (
     <Flats sliceStart={sliceStart} sliceEnd={sliceEnd}>
       <SecondaryButton
-        className="mt-inside self-end"
+        className="mt-insideMob lg:mt-inside self-end"
         onClick={handleAllFlatsClick}
       >
         Все варианты

@@ -2,13 +2,14 @@ import MyImage from "../my-image";
 
 export default function GalleryCardSix() {
   return (
-    <div className="rounded-radius col-span-3 bg-acsent2">
+    <div className="h-[43vh] md:h-auto rounded-radiusMob lg:rounded-radius lg:col-span-3 bg-acsent2">
       <MyImage
         src="/images/gallery/gal-6.png"
         alt="romantic dinner"
         width="100%"
-        aspectRatio="433 / 468"
-        className="overflow-hidden rounded-radius"
+        height="100%"
+        aspectRatio="426 / 444"
+        className="overflow-hidden rounded-radiusMob lg:rounded-radius"
       />
     </div>
   );

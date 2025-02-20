@@ -6,18 +6,25 @@ import HeroAdvantageList from "./hero-advantage-list";
 
 export default function Hero() {
   return (
-    <section id="hero" className="flex pr-0 mt-[6.3vh] relative">
-      <div className="flex w-[60%] rounded-radius bg-bg2 p-[2.08vw]">
+    <section
+      id="hero"
+      className="flex relative 
+     mt-[1.85vh] lg:mt-[6.3vh] flex-col lg:flex-row lg:pr-0"
+    >
+      <div
+        className="flex bg-bg2 
+        rounded-radiusMob lg:rounded-radius
+      h-[60vh] sm:h-[80vh] lg:h-fit p-[4.27vw] lg:p-[2.08vw] w-full lg:w-[60%]"
+      >
         <HeroVertical />
         <HeroOffer />
       </div>
-      <div className="w-[40%]">
+      <div className="w-full lg:w-[40%] h-[44vh] sm:h-[60vh] lg:h-auto">
         <MyImage
-          // width="100%"
           height="100%"
           src="/images/home-img.png"
           alt="torgovaya"
-          className="rounded-radius"
+          className="rounded-radiusMob lg:rounded-radius"
           priority={true}
         />
       </div>

@@ -1,8 +1,7 @@
 export default function QuestionIcon({ isHovered }: { isHovered: boolean }) {
   return (
     <svg
-      width="1.7vw"
-      height="1.7vw"
+      className="w-[5.1vw] h-[5.1vw] lg:w-[1.7vw] lg:h-[1.7vw]"
       viewBox="0 0 32 32"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 export default function WhatsappIcon({ isHovered }: { isHovered: boolean }) {
   return (
     <svg
-      width="2.5vw"
+      className="w-[6.8vw] lg:w-[2.5vw]"
       viewBox="0 0 48 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

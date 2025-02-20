@@ -17,11 +17,11 @@ export default function FlatsHeading({
   const sleepCountVariants = ["1", "2", "3", "4", "5"];
 
   return (
-    <div className="bg-bg2 p-[2.08vw] rounded-radius">
-      <h2 className="font-prata text-5xl">
+    <div className="bg-bg2 p-[4.27vw] lg:p-[2.08vw] rounded-radiusMob lg:rounded-radius">
+      <h2 className="font-prata text-2xl lg:text-5xl">
         Наши <span className="font-marckScript">уютные</span> квартиры
       </h2>
-      <div className="w-full flex justify-between items-start mt-[4.4vh]">
+      <div className="w-full flex flex-col gap-[3vh] lg:gap-0 lg:flex-row justify-between items-start mt-[4.4vh]">
         <FlatsDropDownItem
           variants={roomCountVariants}
           variantTitle="Число комнат"

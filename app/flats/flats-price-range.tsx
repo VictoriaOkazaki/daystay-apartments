@@ -19,7 +19,7 @@ export default function FLatsPriceRange({
   };
 
   return (
-    <div className="text-3xl">
+    <div className="text-xl lg:text-3xl">
       Цена от
       <input
         style={{ background: "none", width: "3ch" }}

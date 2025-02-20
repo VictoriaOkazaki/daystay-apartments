@@ -8,7 +8,13 @@ const advantages = [
 ];
 export default function HeroAdvantageList() {
   return (
-    <div className="absolute right-[5.4%] bottom-[-14.6%] grid grid-cols-2 gap-x-[3.33vw] gap-y-[5.19vh] bg-bg opacity-80 rounded-radius p-[2.08vw]">
+    <div
+      className="absolute grid bg-bg opacity-80 h-fit
+      w-[79%] lg:w-fit
+    right-0 top-[44vh] sm:top-[65vh] lg:right-[5.4%] lg:top-[78.8%]
+    grid-cols-1 gap-y-[3.4vw] lg:grid-cols-2 lg:gap-x-[3.33vw] lg:gap-y-[5.19vh]
+    rounded-radiusMob lg:rounded-radius p-[4.3vw] lg:p-[2.08vw]"
+    >
       {advantages.map((item) => (
         <HeroAdvantage text={item} key={item} />
       ))}

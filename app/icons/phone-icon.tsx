@@ -1,8 +1,7 @@
 export default function PhoneIcon({ isHovered }: { isHovered: boolean }) {
   return (
     <svg
-      width="38"
-      height="37"
+      className="w-[5.13vw] lg:w-[1.98vw]"
       viewBox="0 0 38 37"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

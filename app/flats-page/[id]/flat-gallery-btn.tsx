@@ -12,15 +12,16 @@ export default function FlatGalleryButton({
     <button
       onClick={onClick}
       className={clsx(
-        `absolute top-[calc(50%-0.63vw)] z-20 bg-bg bg-opacity-70 w-[2.5vw] h-[2.5vw] 
-          flex justify-center items-center rounded-radius`,
+        `absolute top-[calc(50%-3.8vw)] lg:top-[calc(50%-0.63vw)] z-20 bg-bg bg-opacity-70 
+        w-[6.8vw] h-[6.8vw] lg:w-[2.5vw] lg:h-[2.5vw] 
+          flex justify-center items-center rounded-full`,
         className
       )}
     >
       <MyImage
         src="/images/slider-arrow.svg"
-        alt="previous"
-        width="0.63vw"
+        alt="slider"
+        className="w-[1.9vw] lg:w-[0.63vw]"
         aspectRatio="1 / 2"
       />
     </button>

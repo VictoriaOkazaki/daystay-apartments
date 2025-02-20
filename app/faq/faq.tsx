@@ -13,9 +13,11 @@ export default function Faq() {
 
   return (
     <section id="faq" className="mt-section">
-      <h2 className="font-prata text-5xl">Ответы на частые вопросы</h2>
+      <h2 className="font-prata text-2xl lg:text-5xl">
+        Ответы на частые вопросы
+      </h2>
       <div
-        className="mt-inside grid grid-cols-2 gap-[1.3vw]"
+        className="mt-insideMob lg:mt-inside grid grid-cols-1 lg:grid-cols-2 gap-[1.5vh] lg:gap-[1.3vw]"
         style={{ gridAutoRows: "min-content" }}
       >
         {faqData.map((faq, index) => (

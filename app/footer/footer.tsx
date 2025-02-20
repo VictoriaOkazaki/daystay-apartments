@@ -3,7 +3,10 @@ import FooterLinks from "./footer-links";
 
 export default function Footer() {
   return (
-    <footer className="bg-bg2 rounded-t-radius py-[3.7vh] px-[1vw] mt-[20vh]">
+    <footer
+      className="bg-bg2 rounded-t-radiusMob lg:rounded-t-radius 
+    p-[3.4vw] lg:py-[3.7vh] lg:px-[1vw] mt-[20vh]"
+    >
       <FooterLinks />
       <FooterCopyrights />
     </footer>

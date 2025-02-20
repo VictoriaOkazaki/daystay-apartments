@@ -11,7 +11,7 @@ import Footer from "./footer/footer";
 
 export default function Home() {
   return (
-    <div className="p-[3.13vw] pb-0">
+    <div className="lg:p-[3.13vw] p-[4.27vw] pb-0 lg:pb-0">
       <Header />
       <Hero />
       <Advantage />

@@ -4,11 +4,11 @@ import AdvColsRight from "./advantage-cols-right";
 
 export default function Advantage() {
   return (
-    <section id="adv" className="mt-[22vh]">
-      <h2 className="w-[50vw] text-5xl leading-snug font-prata">
+    <section id="adv" className="mt-section lg:mt-[22vh]">
+      <h2 className="leading-snug font-prata text-2xl lg:text-5xl w-[77vw] lg:w-[50vw]">
         Что вам даст проживание в&nbsp;самом сердце Баку
       </h2>
-      <div className="grid grid-cols-3 gap-5 mt-inside">
+      <div className="grid gap-5 grid-cols-1 lg:grid-cols-3 mt-insideMob lg:mt-inside">
         <AdvColsLeft />
         <AdvColsRight />
       </div>

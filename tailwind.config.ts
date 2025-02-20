@@ -7,6 +7,13 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    // screens: {
+    //   lg: { max: "1279px" }, // Desktops and down
+    //   lg: { max: "1023px" }, // Laptops and down
+    //   lg: { max: "767px" }, // Tablets and down
+    //   sm: { max: "639px" }, // Small devices and down
+    //   xs: { max: "479px" }, // Extra small devices
+    // },
     fontFamily: {
       gothicA1: ["var(--font-gothicA1)"],
       prata: ["var(--font-prata)"],
@@ -24,16 +31,21 @@ export default {
       green: "#15803D",
     },
     extend: {
+      screens: {
+        sm: "540px",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
       borderRadius: {
         radius: "2.08vw",
+        radiusMob: "8.55vw",
       },
       margin: {
         section: "11vh",
         inside: "7vh",
+        insideMob: "5vh",
       },
     },
   },

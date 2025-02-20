@@ -14,11 +14,11 @@ export default function FlatCard({ flat }: { flat: FlatDetails }) {
   return (
     <button
       onClick={handleCardClick}
-      className="relative flex flex-col text-left rounded-radius overflow-hidden bg-bg"
+      className="relative flex flex-col text-left rounded-radiusMob lg:rounded-radius overflow-hidden bg-bg"
     >
       <div
-        className="absolute text-acsent font-prata text-3xl bg-bg2 bg-opacity-70 
-      rounded-[1vw] z-10 w-[31%] text-center p-[0.4vw] right-0"
+        className="absolute text-acsent font-prata text-2xl lg:text-3xl bg-bg2 bg-opacity-70 
+      rounded-[4.3vw] lg:rounded-[1vw] z-10 w-1/4 lg:w-1/3 text-center p-[1.7vw] lg:p-[0.4vw] right-0"
       >
         {flat.price} AZN
       </div>
@@ -29,18 +29,18 @@ export default function FlatCard({ flat }: { flat: FlatDetails }) {
         width="100%"
         aspectRatio="3/2"
       />
-      <h3 className="font-prata text-xl my-[1.5vh] w-[90%] px-[5%]">
+      <h3 className="font-prata text-xl my-[1.5vh] w-full lg:w-[90%] px-[5%]">
         {flat.name}
       </h3>
       <ul className="grid grid-cols-2 bg-mainBg rounded-radius py-[1vh] px-[5%] w-full">
-        <li className="text-xl">{flat.area} м2</li>
-        <li className="text-xl">
+        <li className="text-lg lg:text-xl">{flat.area} м2</li>
+        <li className="text-lg lg:text-xl">
           {flat.floor}/{flat.maxFloor} этаж
         </li>
-        <li className="text-xl">
+        <li className="text-lg lg:text-xl">
           {flat.roomCount} {roomCountNaming(flat.roomCount)}
         </li>
-        <li className="text-xl">
+        <li className="text-lg lg:text-xl">
           {flat.sleepingCount} {sleepCountNaming(flat.sleepingCount)}
         </li>
       </ul>

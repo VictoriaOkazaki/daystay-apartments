@@ -29,7 +29,7 @@ export default function FlatGallery({ flat }: { flat: FlatDetails }) {
     }
   };
   return (
-    <div className="w-rounded-radius overflow-hidden relative">
+    <div className="w-full min-h-[267px] md:min-h-[400px] rounded-radiusMob lg:rounded-radius overflow-hidden relative">
       <FlatGalleryButton onClick={handlePrevClick} />
       <AnimatePresence initial={false} custom={direction}>
         <motion.div
@@ -46,9 +46,10 @@ export default function FlatGallery({ flat }: { flat: FlatDetails }) {
         >
           <MyImage
             priority={imgIndex === 0 ? true : false}
+            aspectRatio="426 / 267"
             src={flat.gallery[imgIndex]}
             alt="apartment"
-            className="w-full h-full object-cover rounded-radius"
+            className="w-full h-full object-cover rounded-s-radiusMob lg:rounded-radius"
           />
         </motion.div>
       </AnimatePresence>

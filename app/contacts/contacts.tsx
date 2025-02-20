@@ -6,7 +6,9 @@ export default function Contacts() {
     <section id="contact">
       <ContactFormBanner />
       <div className="mt-section">
-        <h2 className="font-prata text-5xl">Как с нами связаться</h2>
+        <h2 className="font-prata text-2xl lg:text-5xl">
+          Как с нами связаться
+        </h2>
         <ContactsInfo />
       </div>
     </section>

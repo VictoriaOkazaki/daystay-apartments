@@ -21,6 +21,16 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  font-size: calc(16 * 100vw / 1920);
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: calc(16 * 100vw / 468);
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;

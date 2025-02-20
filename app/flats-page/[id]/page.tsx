@@ -16,7 +16,7 @@ export default function FlatDetailsPage() {
   if (!flat) return <FlatError />;
 
   return (
-    <div className="p-[3.13vw] pb-0">
+    <div className="p-[4.27vw] lg:p-[3.13vw] pb-0 lg:pb-0">
       <Header />
       <section className="mt-section">
         <FlatTop flat={flat} />

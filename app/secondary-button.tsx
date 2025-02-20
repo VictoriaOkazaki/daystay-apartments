@@ -14,8 +14,9 @@ export default function SecondaryButton({
     <button
       onClick={onClick}
       className={clsx(
-        `bg-acsent2 rounded-radius h-[16%] py-[1.56vw] px-[3.13vw] text-2xl font-prata
-      flex items-center justify-around
+        `w-fit bg-acsent2 py-5 px-10 lg:py-6 lg:px-12 text-base lg:text-2xl font-prata
+      flex items-center justify-between
+      rounded-radiusMob lg:rounded-radius
   hover:scale-105 transition ease-in-out`,
         className
       )}

@@ -42,23 +42,27 @@ export default function ContactForm({ className }: { className?: string }) {
   return (
     <div
       className={clsx(
-        "col-span-5 bg-acsent2 rounded-radius p-[3vw] flex flex-col justify-between",
+        `lg:col-span-5 bg-acsent2 rounded-radiusMob lg:rounded-radius p-[8.54vw] lg:p-[3vw] 
+        flex flex-col justify-between`,
         className
       )}
     >
-      <span className="text-3xl">
+      <span className="text-xl lg:text-3xl">
         Оставьте заявку, и мы свяжемся с вами в течение 30 минут
       </span>
-      <div className="h-[0.5px] w-[calc(100% + 6vw)] bg-text mx-[-3vw] mt-3"></div>
+      <div
+        className="h-[0.5px] w-[calc(100% + 17.1vw)] lg:w-[calc(100% + 6vw)]
+       bg-text mx-[-8.54vw] lg:mx-[-3vw] mt-3"
+      ></div>
 
       {isSent && (
-        <p className="font-prata text-2xl text-green mt-3">
+        <p className="font-prata text-base lg:text-2xl text-green mt-3">
           Message sent successfully! Our manager will contact you within an hour
         </p>
       )}
       <form
         onSubmit={handleSubmit}
-        className="mt-[5%] flex flex-col justify-around flex-grow"
+        className="mt-[10%] lg:mt-[5%] flex flex-col justify-around flex-grow"
       >
         <div>
           <input
@@ -72,8 +76,9 @@ export default function ContactForm({ className }: { className?: string }) {
               background: "transparent",
               WebkitBoxShadow: "0 0 0px 1000px transparent inset",
             }}
-            className="py-[2vh] w-[74%] border-b-[1px] border-text text-acsent text-2xl focus:outline-none 
-          placeholder:text-2xl placeholder:text-text placeholder:bg-none focus:bg-none"
+            className="py-[1.5vh] lg:py-[2vh] w-3/5 lg:w-[74%] border-b-[1px] 
+            border-text text-acsent text-base lg:text-2xl focus:outline-none 
+          placeholder:text-base lg:placeholder:text-2xl placeholder:text-text placeholder:bg-none focus:bg-none"
           />
           <input
             type="tel"
@@ -86,8 +91,10 @@ export default function ContactForm({ className }: { className?: string }) {
               background: "transparent",
               WebkitBoxShadow: "0 0 0px 1000px transparent inset",
             }}
-            className="py-[2vh] w-[74%] mt-[3vh] border-b-[1px] border-text text-acsent text-2xl focus:outline-none
-           placeholder:text-2xl placeholder:text-text placeholder:bg-none"
+            className="py-[1.5vh] lg:py-[2vh] w-3/5 lg:w-[74%] border-b-[1px] 
+            border-text text-acsent text-base lg:text-2xl focus:outline-none 
+          placeholder:text-base lg:placeholder:text-2xl placeholder:text-text placeholder:bg-none focus:bg-none
+           mb-[10%] lg:mb-0"
           />
         </div>
 
@@ -96,4 +103,3 @@ export default function ContactForm({ className }: { className?: string }) {
     </div>
   );
 }
-// TODO security bot token

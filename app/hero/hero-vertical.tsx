@@ -2,17 +2,20 @@ import SocialLinks from "../social-links";
 
 export default function HeroVertical() {
   return (
-    <div className="flex flex-col items-center justify-between w-fit">
+    <div className="flex flex-col items-center gap-[3.4vw] lg:w-fit">
       <div
         style={{
           writingMode: "vertical-lr",
           textOrientation: "mixed",
         }}
-        className="text-xl w-fit rotate-180"
+        className="w-fit rotate-180 text-sm lg:text-xl "
       >
         Мы в соцсетях
       </div>
-      <div className="h-[16.57vh] w-[1px] my-[2.96vh] bg-text"></div>
+      <div
+        className=" w-[0.5px] bg-text
+      h-[9.3vh] lg:h-[16.57vh] my-[2vh] lg:my-[2.96vh]"
+      ></div>
       <SocialLinks margin="mb-[2.96vh]" />
     </div>
   );

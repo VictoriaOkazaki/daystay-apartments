@@ -13,7 +13,7 @@ export default function Logo() {
       <MyImage
         src="/images/logo.svg"
         alt="logo"
-        width="10.65vw"
+        className="w-[18.6vw] lg:w-[10.65vw]"
         aspectRatio="205 / 160"
         priority={true}
       />

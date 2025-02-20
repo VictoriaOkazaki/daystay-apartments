@@ -12,31 +12,31 @@ export const useMenuItems = () => {
     {
       id: uuidv4(),
       name: "Преимущества",
-      scrollTo: scrollToAdvantageSection,
+      goTo: scrollToAdvantageSection,
       active: false,
     },
     {
       id: uuidv4(),
       name: "Квартиры",
-      scrollTo: scrollToFlatsSection,
+      goTo: scrollToFlatsSection,
       active: false,
     },
     {
       id: uuidv4(),
       name: "Услуги",
-      scrollTo: scrollToServiceSection,
+      goTo: scrollToServiceSection,
       active: false,
     },
     {
       id: uuidv4(),
       name: "Вопросы",
-      scrollTo: scrollToFaqSection,
+      goTo: scrollToFaqSection,
       active: false,
     },
     {
       id: uuidv4(),
       name: "Контакты",
-      scrollTo: scrollToContactSection,
+      goTo: scrollToContactSection,
       active: false,
     },
   ];
@@ -46,7 +46,7 @@ export const useMenuItems = () => {
       id: uuidv4(),
       name: "Главная",
       active: false,
-      scrollTo: () => {
+      goTo: () => {
         router.push("/");
       },
     },
@@ -54,7 +54,7 @@ export const useMenuItems = () => {
       id: uuidv4(),
       name: "Квартиры",
       active: true,
-      scrollTo: () => {
+      goTo: () => {
         router.push("/flats-page");
       },
     },

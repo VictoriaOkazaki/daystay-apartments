@@ -8,12 +8,11 @@ export default function FooterToTopButton() {
   return (
     <button
       onClick={handleToTopClick}
-      className="w-[3.3vw] rounded-full bg-acsent2 flex items-center justify-center p-[1vw]
+      className="w-[8.1vw] h-[8.1vw] lg:w-[3.3vw] lg:h-[3.3vw] rounded-full bg-acsent2 flex items-center justify-center p-[1vw]
     hover:scale-110 transition-all ease-in"
     >
       <svg
-        width="1.3vw"
-        height="1.3vw"
+        className="w-[3.8vw] h-[3.8vw] lg:w-[1.3vw] lg:h-[1.3vw]"
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

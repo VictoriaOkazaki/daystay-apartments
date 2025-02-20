@@ -20,12 +20,15 @@ export default function FlatBook({ flat }: { flat: FlatDetails }) {
 
   return (
     <>
-      <div className="flex flex-col gap-[3vh] place-self-end col-start-6">
+      <div
+        className="order-1 lg:order-4 flex flex-col mt-[1.2vh] lg:mt-0 
+      gap-[2.3vh] lg:gap-[3vh] lg:place-self-end lg:col-start-6 mb-[5vh] lg:mb-0"
+      >
         <div>
-          <span className="font-prata text-3xl mr-[0.8vw]">
+          <span className="font-prata text-xl lg:text-3xl mr-[0.8vw]">
             {flat.price} AZN
           </span>{" "}
-          <span className="text-2xl">в сутки</span>
+          <span className="text-base lg:text-2xl">в сутки</span>
         </div>
         <MainButton onClick={handleBookClick}>Забронировать</MainButton>
         <FlatsCircleButton

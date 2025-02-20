@@ -7,7 +7,7 @@ import GalleryCardSix from "./gallery-card-6";
 
 export default function Gallery() {
   return (
-    <div className="grid grid-cols-12 gap-[1vw] mt-section">
+    <div className="grid grid-cols-1 lg:grid-cols-12 gap-y-[2.3vh] lg:gap-[1vw] mt-section">
       <GalleryCardOne />
       <GalleryCardTwo />
       <GalleryCardThree />

@@ -9,18 +9,19 @@ export default function Phone({ phone }: { phone: string }) {
 
   return (
     <div
-      className="group flex items-center justify-start"
+      className="flex items-center w-fit justify-between"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       <PhoneIcon isHovered={isHovered} />
       <a
-        className="font-prata text-xl pr-7 group-hover:text-acsent"
+        className="font-prata group-hover:text-acsent
+        text-base lg:text-xl pr-2 lg:pr-7"
         href={`tel:${phone}`}
       >
         {phone}
       </a>
-      <span className="text-xl leading-5 text-acsent">24/7</span>
+      <span className="leading-5 text-acsent text-sm lg:text-xl">24/7</span>
     </div>
   );
 }

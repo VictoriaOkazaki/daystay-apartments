@@ -1,7 +1,7 @@
 export default function InstagramIcon({ isHovered }: { isHovered: boolean }) {
   return (
     <svg
-      width="1.67vw"
+      className="w-[5.1vw] lg:w-[1.67vw] "
       viewBox="0 0 32 31"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

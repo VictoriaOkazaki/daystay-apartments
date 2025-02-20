@@ -27,18 +27,19 @@ export default function AdvLeftCard({
   return (
     <div
       className={clsx(
-        "flex relative justify-between bg-yellow rounded-radius p-[2.08vw]",
+        `flex relative justify-between bg-yellow 
+        flex-col  rounded-radiusMob lg:rounded-radius p-[4.27vw] lg:p-[2.08vw]`,
         spanCol,
         flexCol
       )}
     >
       <div className={textWidth}>
-        <h3 className="text-3xl font-prata">{title}</h3>
-        <p className="text-xl mt-8">{text}</p>
+        <h3 className="text-xl lg:text-3xl font-prata">{title}</h3>
+        <p className="text-base lg:text-xl mt-4 lg:mt-8">{text}</p>
       </div>
 
       <MyImage
-        className="self-end"
+        className="self-end mt-6 lg:mt-0"
         width={imageWidth}
         height={imageHeight}
         aspectRatio={imageRatio}

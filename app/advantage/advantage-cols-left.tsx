@@ -2,10 +2,11 @@ import AdvLeftCard from "./advantage-left-card";
 
 export function AdvColsLeft() {
   return (
-    <div className="grid gap-[1.8vh] grid-cols-2 col-span-2">
+    <div className="grid gap-5 lg:gap-[1.8vh] grid-cols-1 lg:grid-cols-2 lg:col-span-2">
       <AdvLeftCard
-        spanCol="col-span-2"
-        textWidth="w-[65%]"
+        spanCol="lg:col-span-2"
+        flexCol="lg:flex-row"
+        textWidth="w-full lg:w-[65%]"
         imageHeight="30vh"
         imageRatio="379/325"
         imageSrc="/images/advantages/adv-1.png"

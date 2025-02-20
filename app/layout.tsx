@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru" style={{ fontSize: `calc(16 * 100vw / 1920)` }}>
+    <html lang="ru">
       <body
         className={`${gothicA1.variable} ${prata.variable} ${marckScript.variable} antialiased 
         text-text font-gothicA1 bg-mainBg`}

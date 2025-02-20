@@ -4,7 +4,7 @@ import Header from "../header/header";
 
 export default function FlatsPage() {
   return (
-    <div className="p-[3.13vw] pb-0">
+    <div className="p-[4.27vw] lg:p-[3.13vw] pb-0">
       <Header />
       <Flats />
       <Footer />
