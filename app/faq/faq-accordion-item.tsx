@@ -15,7 +15,7 @@ export default function FaqAccordionItem({
       overflow-hidden w-full place-self-start"
     >
       <div className="flex justify-between items-start text-left">
-        <span className="text-base lg:text-3xl">{question}</span>
+        <span className="text-xl lg:text-3xl">{question}</span>
         <motion.div
           animate={{ rotate: isActive ? 45 : 0 }}
           transition={{ duration: 0.3, ease: "easeInOut" }}
@@ -35,7 +35,7 @@ export default function FaqAccordionItem({
         transition={{ duration: 0.3, ease: easeIn }}
         className="overflow-hidden "
       >
-        <div className=" text-left text-sm lg:text-2xl mt-[2.2vh] w-[95%]">
+        <div className=" text-left text-base lg:text-2xl mt-[2.2vh] w-[95%]">
           {answer}
         </div>
       </motion.div>

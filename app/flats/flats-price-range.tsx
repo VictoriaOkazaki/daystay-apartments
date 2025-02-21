@@ -31,7 +31,7 @@ export default function FLatsPriceRange({
       до
       <input
         style={{ background: "none", width: "3ch" }}
-        className="m-2 border-b-[1px] border-text text-acsent"
+        className="m-2 border-b-[1px] border-text text-acsent focus:outline-none"
         value={choiceMaxPrice ?? ""}
         onChange={handleChangeMaxPrice}
         type="text"

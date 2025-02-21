@@ -29,6 +29,7 @@ export default function PopupForm({
 
   return (
     <div
+      onClick={closePopup}
       className={clsx(
         `w-screen h-screen
     fixed top-0 left-0 backdrop-blur-sm  

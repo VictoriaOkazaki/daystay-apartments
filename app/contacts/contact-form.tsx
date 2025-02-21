@@ -41,6 +41,7 @@ export default function ContactForm({ className }: { className?: string }) {
 
   return (
     <div
+      onClick={(e) => e.stopPropagation()}
       className={clsx(
         `lg:col-span-5 bg-acsent2 rounded-radiusMob lg:rounded-radius p-[8.54vw] lg:p-[3vw] 
         flex flex-col justify-between`,

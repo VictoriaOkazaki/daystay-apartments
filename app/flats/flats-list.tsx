@@ -14,7 +14,7 @@ export default function FlatsList({
       {filteredFlats.length !== 0 ? (
         <ul
           className="grid mt-insideMob lg:mt-inside 
-        grid-cols-1 gap-x-[1.7vw] gap-y-[1.5vh] lg:grid-cols-3 lg:gap-x-[8.7vw] lg:gap-y-[3.3vh]"
+        grid-cols-1 gap-y-[5vh] lg:grid-cols-3 lg:gap-x-[8.7vw] lg:gap-y-[3.3vh]"
         >
           {filteredFlats.map((flat) => (
             <FlatCard key={flat.id} flat={flat} />

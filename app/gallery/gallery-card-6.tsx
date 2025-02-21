@@ -2,7 +2,7 @@ import MyImage from "../my-image";
 
 export default function GalleryCardSix() {
   return (
-    <div className="h-[43vh] md:h-auto rounded-radiusMob lg:rounded-radius lg:col-span-3 bg-acsent2">
+    <div className="rounded-radiusMob lg:rounded-radius lg:col-span-3 bg-acsent2">
       <MyImage
         src="/images/gallery/gal-6.png"
         alt="romantic dinner"
