@@ -19,7 +19,7 @@ export default function FlatsHeading({
   return (
     <div className="bg-bg2 p-[4.27vw] lg:p-[2.08vw] rounded-radiusMob lg:rounded-radius">
       <h2 className="font-prata text-2xl lg:text-5xl">
-        Наши <span className="font-marckScript">уютные</span> квартиры
+        Наши <span className="font-marck-script">уютные</span> квартиры
       </h2>
       <div className="w-full flex flex-col gap-[3vh] lg:gap-0 lg:flex-row justify-between items-start mt-[4.4vh]">
         <FlatsDropDownItem

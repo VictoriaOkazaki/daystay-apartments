@@ -13,7 +13,7 @@ export default function HeroOffer() {
       </span>
       <h1 className="text-3xl lg:text-6xl font-prata">
         Снимите квартиру посуточно на{" "}
-        <span className="font-marckScript">Торговой</span>
+        <span className="font-marck-script">Торговой</span>
         <br></br>—&nbsp;в самом центре Баку
       </h1>
       <MainButton onClick={scrollToFlatsSection}>Забронировать</MainButton>

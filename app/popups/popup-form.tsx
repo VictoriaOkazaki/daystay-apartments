@@ -32,7 +32,7 @@ export default function PopupForm({
       onClick={closePopup}
       className={clsx(
         `w-screen h-screen
-    fixed top-0 left-0 backdrop-blur-sm  
+    fixed top-0 left-0 backdrop-blur-xs  
   transform transition-opacity duration-300 ease-in`,
         isOpen ? "bg-text bg-opacity-180" : "bg-opacity-0"
       )}

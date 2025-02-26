@@ -63,7 +63,7 @@ export default function ContactForm({ className }: { className?: string }) {
       )}
       <form
         onSubmit={handleSubmit}
-        className="mt-[10%] lg:mt-[5%] flex flex-col justify-around flex-grow"
+        className="mt-[10%] lg:mt-[5%] flex flex-col justify-around grow"
       >
         <div>
           <input
@@ -78,7 +78,7 @@ export default function ContactForm({ className }: { className?: string }) {
               WebkitBoxShadow: "0 0 0px 1000px transparent inset",
             }}
             className="py-[1.5vh] lg:py-[2vh] w-3/5 lg:w-[74%] border-b-[1px] 
-            border-text text-acsent text-base lg:text-2xl focus:outline-none 
+            border-text text-acsent text-base lg:text-2xl focus:outline-hidden 
           placeholder:text-base lg:placeholder:text-2xl placeholder:text-text placeholder:bg-none focus:bg-none"
           />
           <input
@@ -93,7 +93,7 @@ export default function ContactForm({ className }: { className?: string }) {
               WebkitBoxShadow: "0 0 0px 1000px transparent inset",
             }}
             className="py-[1.5vh] lg:py-[2vh] w-3/5 lg:w-[74%] border-b-[1px] 
-            border-text text-acsent text-base lg:text-2xl focus:outline-none 
+            border-text text-acsent text-base lg:text-2xl focus:outline-hidden 
           placeholder:text-base lg:placeholder:text-2xl placeholder:text-text placeholder:bg-none focus:bg-none
            mb-[10%] lg:mb-0"
           />

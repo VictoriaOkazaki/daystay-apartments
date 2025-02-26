@@ -41,7 +41,7 @@ export default function AdvColsRight() {
       >
         <h3 className="text-xl lg:text-3xl font-prata">
           Вы почувствуете себя настоящим{" "}
-          <span className="font-marckScript">бакинцем</span>
+          <span className="font-marck-script">бакинцем</span>
         </h3>
         <p className="text-base lg:text-xl mt-4 lg:mt-8">
           Вы прочувствуете атмосферу города, сняв жилье именно на Торговой. Вы

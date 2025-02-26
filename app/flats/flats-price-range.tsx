@@ -23,7 +23,7 @@ export default function FLatsPriceRange({
       Цена от
       <input
         style={{ background: "none", width: "3ch" }}
-        className="m-2 border-b-[1px] border-text text-acsent focus:outline-none"
+        className="m-2 border-b-[1px] border-text text-acsent focus:outline-hidden"
         type="text"
         value={choiceMinPrice ?? ""}
         onChange={handleChangeMinPrice}
@@ -31,7 +31,7 @@ export default function FLatsPriceRange({
       до
       <input
         style={{ background: "none", width: "3ch" }}
-        className="m-2 border-b-[1px] border-text text-acsent focus:outline-none"
+        className="m-2 border-b-[1px] border-text text-acsent focus:outline-hidden"
         value={choiceMaxPrice ?? ""}
         onChange={handleChangeMaxPrice}
         type="text"
