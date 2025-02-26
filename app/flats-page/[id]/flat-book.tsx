@@ -5,13 +5,19 @@ import { FlatDetails } from "@/app/flats/types";
 import QuestionIcon from "@/app/icons/question-icon";
 import MainButton from "@/app/main-button";
 import PopupForm from "@/app/popups/popup-form";
+import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function FlatBook({ flat }: { flat: FlatDetails }) {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
 
-  const handleBookClick = () => {};
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const handleBookClick = () => {
+    router.push(`${pathname}/book`);
+  };
 
   const openPopup = () => {
     setShowPopup(true);

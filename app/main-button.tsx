@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import { ReactNode } from "react";
 
 export default function MainButton({
   children,
@@ -6,7 +7,7 @@ export default function MainButton({
   type,
   className,
 }: {
-  children: string;
+  children: ReactNode;
   onClick?: () => void;
   type?: "button" | "submit" | "reset";
   className?: string;
