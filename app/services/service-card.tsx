@@ -13,7 +13,7 @@ export default function ServiceCard({
   return (
     <li
       className={clsx(
-        `p-[4.2vw] lg:p-[2.1vw] h-[23vh] md:h-[36vh] lg:h-[18vw] rounded-radiusMob lg:rounded-radius 
+        `p-[4.2vw] lg:p-[2.1vw] h-[23vh] md:h-[36vh] lg:h-[18vw] rounded-radius-mob lg:rounded-radius 
         flex flex-col justify-between`,
         index % 2 === 0 ? "bg-yellow" : "bg-bg2"
       )}
@@ -21,7 +21,7 @@ export default function ServiceCard({
       <div className="">
         <div className="flex items-center">
           <MyImage
-            className="w-4 h-4 lg:w-[1.3vw]"
+            className="w-4 h-4 lg:w-[1.3vw] lg:h-[1.3vw]"
             aspectRatio="1"
             src={
               index % 2 === 0

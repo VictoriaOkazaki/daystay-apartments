@@ -16,7 +16,7 @@ export default function FlatBook({ flat }: { flat: FlatDetails }) {
   const pathname = usePathname();
 
   const handleBookClick = () => {
-    router.push(`${pathname}/book`);
+    router.push(`${pathname}/book?flatId=${flat.id}`);
   };
 
   const openPopup = () => {
@@ -56,5 +56,3 @@ export default function FlatBook({ flat }: { flat: FlatDetails }) {
     </>
   );
 }
-
-// TODO handleBookClick

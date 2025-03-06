@@ -3,6 +3,7 @@
 import clsx from "clsx";
 import { useState } from "react";
 import MyImage from "../my-image";
+import DropdownList from "../dropdown-list";
 
 export default function FlatsDropDownItem({
   variants,
@@ -42,22 +43,12 @@ export default function FlatsDropDownItem({
         />
       </button>
       {isOpen && (
-        <ul className="absolute w-full bg-yellow rounded-2xl overflow-hidden mt-[1.1vh] lg:mt-[2.2vh] z-10">
-          {variants.map((v, index) => (
-            <li
-              className={clsx(
-                "hover:bg-red text-xl lg:text-2xl px-4 py-2 cursor-pointer",
-                index === variants.findIndex((item) => item === choice)
-                  ? "bg-red"
-                  : ""
-              )}
-              key={index}
-              onClick={() => handleMenuItemClick(v)}
-            >
-              {v}
-            </li>
-          ))}
-        </ul>
+        <DropdownList
+          className="w-full"
+          variants={variants}
+          choice={choice}
+          onClick={handleMenuItemClick}
+        />
       )}
       {choice && (
         <div

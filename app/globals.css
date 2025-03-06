@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 /*
   ---break---
 */
@@ -10,7 +10,7 @@
 
 @theme {
   --font-*: initial;
-  --font-gothic-a1: var(--font-gothicA1);
+  --font-gothic-a1: var(--font-gothic-a1);
   --font-prata: var(--font-prata);
   --font-marck-script: var(--font-marck-script);
 
@@ -61,6 +61,10 @@ body {
 
 html {
   font-size: calc(16 * 100vw / 1920);
+}
+
+button {
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {

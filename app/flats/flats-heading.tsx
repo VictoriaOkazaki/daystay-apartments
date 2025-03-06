@@ -17,7 +17,7 @@ export default function FlatsHeading({
   const sleepCountVariants = ["1", "2", "3", "4", "5"];
 
   return (
-    <div className="bg-bg2 p-[4.27vw] lg:p-[2.08vw] rounded-radiusMob lg:rounded-radius">
+    <div className="bg-bg2 p-[4.27vw] lg:p-[2.08vw] rounded-radius-mob lg:rounded-radius">
       <h2 className="font-prata text-2xl lg:text-5xl">
         Наши <span className="font-marck-script">уютные</span> квартиры
       </h2>

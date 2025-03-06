@@ -3,7 +3,7 @@ import MyImage from "../my-image";
 export default function ContactFormBannerDecor() {
   return (
     <div
-      className="lg:col-span-7 bg-bg2 rounded-radiusMob lg:rounded-radius 
+      className="lg:col-span-7 bg-bg2 rounded-radius-mob lg:rounded-radius 
     px-[4.27vw] py-[8.54vw] lg:p-[4.2vw] h-[60vh] md:h-[90vh] lg:h-[70vh] relative"
     >
       <h3 className="font-prata text-2xl lg:text-5xl leading-snug">

@@ -28,7 +28,7 @@ export default function AdvLeftCard({
     <div
       className={clsx(
         `flex relative justify-between bg-yellow 
-        flex-col  rounded-radiusMob lg:rounded-radius p-[4.27vw] lg:p-[2.08vw]`,
+        flex-col  rounded-radius-mob lg:rounded-radius p-[4.27vw] lg:p-[2.08vw]`,
         spanCol,
         flexCol
       )}

@@ -8,7 +8,7 @@ export default function Services() {
         Мы <span className="font-marck-script">заботимся</span> о наших гостях и
         помогаем во всем
       </h2>
-      <ul className="grid grid-cols-1 lg:grid-cols-3 gap-[2.3vh] lg:gap-x-[1vw] lg:gap-y-[3.7vh] mt-insideMob lg:mt-inside">
+      <ul className="grid grid-cols-1 lg:grid-cols-3 gap-[2.3vh] lg:gap-x-[1vw] lg:gap-y-[3.7vh] mt-inside-mob lg:mt-inside">
         {servicesInfo.map((service, index) => (
           <ServiceCard
             title={service.title}

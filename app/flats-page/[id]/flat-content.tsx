@@ -35,7 +35,7 @@ export default function FlatContent({ flat }: { flat: FlatDetails }) {
 
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-2 mt-insideMob lg:mt-inside gap-[2.5vh] lg:gap-[4.17vw]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 mt-inside-mob lg:mt-inside gap-[2.5vh] lg:gap-[4.17vw]">
         <FlatGallery flat={flat} />
         <div className="flex flex-col gap-[2.5vh] lg:gap-[3.7vh]">
           <p className="text-base lg:text-2xl order-2 lg:order-1">
@@ -52,14 +52,14 @@ export default function FlatContent({ flat }: { flat: FlatDetails }) {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-6 gap-y-[2.5vh] lg:gap-[1.04vw] mt-insideMob lg:mt-inside">
+      <div className="grid grid-cols-1 lg:grid-cols-6 gap-y-[2.5vh] lg:gap-[1.04vw] mt-inside-mob lg:mt-inside">
         <FlatConveniencesCards flat={flat} />
         <FlatBook flat={flat} />
       </div>
-      <div className="mt-insideMob lg:mt-inside">
+      <div className="mt-inside-mob lg:mt-inside">
         <span className="text-base lg:text-2xl">{flat.adress}</span>
         <div
-          className="w-full lg:w-[60vw] h-[40vh] lg:h-[53vh] rounded-radiusMob 
+          className="w-full lg:w-[60vw] h-[40vh] lg:h-[53vh] rounded-radius-mob 
         lg:rounded-radius overflow-hidden mt-[2.5vh] lg:mt-[3.7vh]"
         >
           <Map

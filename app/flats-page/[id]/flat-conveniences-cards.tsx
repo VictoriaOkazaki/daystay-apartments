@@ -8,7 +8,7 @@ export default function FlatConveniencesCards({ flat }: { flat: FlatDetails }) {
 
   return (
     <>
-      <ul className="order-2 lg:order-1 bg-bg rounded-radiusMob lg:rounded-radius p-[3.4vw] lg:p-[1.04vw] w-[76vw] lg:w-auto">
+      <ul className="order-2 lg:order-1 bg-bg rounded-radius-mob lg:rounded-radius p-[3.4vw] lg:p-[1.04vw] w-[76vw] lg:w-auto">
         <h4 className="font-prata text-base lg:text-2xl mb-[2.2vh] ml-[9.8vw] lg:ml-[1.45vw]">
           Основные удобства
         </h4>
@@ -32,7 +32,7 @@ export default function FlatConveniencesCards({ flat }: { flat: FlatDetails }) {
         <FlatConvenience has={mainConveniences.hasIron}>утюг</FlatConvenience>
       </ul>
       <ul
-        className="order-3 lg:order-2 bg-bg rounded-radiusMob lg:rounded-radius p-[3.4vw] lg:p-[1.04vw] 
+        className="order-3 lg:order-2 bg-bg rounded-radius-mob lg:rounded-radius p-[3.4vw] lg:p-[1.04vw] 
       lg:place-self-end w-[76vw] lg:w-auto"
       >
         <h4 className="font-prata text-base lg:text-2xl mb-[2.2vh] ml-[9.8vw] lg:ml-[1.45vw]">
@@ -55,7 +55,7 @@ export default function FlatConveniencesCards({ flat }: { flat: FlatDetails }) {
         </FlatConvenience>
       </ul>
       <ul
-        className="order-4 lg:order-3 bg-bg rounded-radiusMob lg:rounded-radius p-[3.4vw] lg:p-[1.04vw] 
+        className="order-4 lg:order-3 bg-bg rounded-radius-mob lg:rounded-radius p-[3.4vw] lg:p-[1.04vw] 
       lg:place-self-end w-[76vw] lg:w-auto"
       >
         <h4 className="font-prata text-base lg:text-2xl mb-[2.2vh] ml-[9.8vw] lg:ml-[1.45vw]">

@@ -3,13 +3,13 @@
 import { useRouter } from "next/navigation";
 import MyImage from "./my-image";
 
-export default function Logo() {
+export default function Logo({ className }: { className?: string }) {
   const router = useRouter();
   const handleLogoClick = () => {
     router.push("/");
   };
   return (
-    <button onClick={handleLogoClick}>
+    <button onClick={handleLogoClick} className={className}>
       <MyImage
         src="/images/logo.svg"
         alt="logo"

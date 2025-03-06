@@ -3,6 +3,7 @@
 import { useState } from "react";
 import MainButton from "../main-button";
 import clsx from "clsx";
+import MyInput from "../my-input";
 
 export default function ContactForm({ className }: { className?: string }) {
   const [formData, setFormData] = useState({ name: "", phone: "" });
@@ -43,7 +44,7 @@ export default function ContactForm({ className }: { className?: string }) {
     <div
       onClick={(e) => e.stopPropagation()}
       className={clsx(
-        `lg:col-span-5 bg-acsent2 rounded-radiusMob lg:rounded-radius p-[8.54vw] lg:p-[3vw] 
+        `lg:col-span-5 bg-acsent2 rounded-radius-mob lg:rounded-radius p-[8.54vw] lg:p-[3vw] 
         flex flex-col justify-between`,
         className
       )}
@@ -65,40 +66,22 @@ export default function ContactForm({ className }: { className?: string }) {
         onSubmit={handleSubmit}
         className="mt-[10%] lg:mt-[5%] flex flex-col justify-around grow"
       >
-        <div>
-          <input
-            type="text"
+        <div className="gap-[2.5vh] flex flex-col justify-between">
+          <MyInput
             name="name"
+            type="text"
             placeholder="Имя"
             value={formData.name}
             onChange={handleChange}
-            required
-            style={{
-              background: "transparent",
-              WebkitBoxShadow: "0 0 0px 1000px transparent inset",
-            }}
-            className="py-[1.5vh] lg:py-[2vh] w-3/5 lg:w-[74%] border-b-[1px] 
-            border-text text-acsent text-base lg:text-2xl focus:outline-hidden 
-          placeholder:text-base lg:placeholder:text-2xl placeholder:text-text placeholder:bg-none focus:bg-none"
           />
-          <input
-            type="tel"
+          <MyInput
             name="phone"
+            type="tel"
             placeholder="Телефон"
             value={formData.phone}
             onChange={handleChange}
-            required
-            style={{
-              background: "transparent",
-              WebkitBoxShadow: "0 0 0px 1000px transparent inset",
-            }}
-            className="py-[1.5vh] lg:py-[2vh] w-3/5 lg:w-[74%] border-b-[1px] 
-            border-text text-acsent text-base lg:text-2xl focus:outline-hidden 
-          placeholder:text-base lg:placeholder:text-2xl placeholder:text-text placeholder:bg-none focus:bg-none
-           mb-[10%] lg:mb-0"
           />
         </div>
-
         <MainButton type="submit">Отправить</MainButton>
       </form>
     </div>

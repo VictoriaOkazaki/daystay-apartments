@@ -8,7 +8,7 @@ export default function Advantage() {
       <h2 className="leading-snug font-prata text-2xl lg:text-5xl w-[77vw] lg:w-[50vw]">
         Что вам даст проживание в&nbsp;самом сердце Баку
       </h2>
-      <div className="grid gap-5 grid-cols-1 lg:grid-cols-3 mt-insideMob lg:mt-inside">
+      <div className="grid gap-5 grid-cols-1 lg:grid-cols-3 mt-inside-mob lg:mt-inside">
         <AdvColsLeft />
         <AdvColsRight />
       </div>

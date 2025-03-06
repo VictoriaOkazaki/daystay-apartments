@@ -36,7 +36,7 @@ export default function Header() {
     <header
       id="header"
       className="flex justify-between items-center bg-bg relative
-      rounded-radiusMob lg:rounded-radius p-2 lg:p-5"
+      rounded-radius-mob lg:rounded-radius p-2 lg:p-5"
     >
       <Logo />
       {!isMobile && <Menu />}

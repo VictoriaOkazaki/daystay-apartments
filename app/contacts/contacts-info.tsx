@@ -25,9 +25,9 @@ export default function ContactsInfo() {
   }, []);
 
   return (
-    <div className="mt-insideMob lg:mt-inside flex flex-col lg:flex-row gap-[1.3vw] relative">
+    <div className="mt-inside-mob lg:mt-inside flex flex-col lg:flex-row gap-[1.3vw] relative">
       <MyImage
-        className="w-full h-[32vh] rounded-radiusMob lg:rounded-none lg:w-1/3 lg:h-auto order-2 lg:order-1"
+        className="w-full h-[32vh] rounded-radius-mob lg:rounded-none lg:w-1/3 lg:h-auto order-2 lg:order-1"
         aspectRatio="581 / 652"
         src="/images/contact/cont-3.png"
         alt="company banner"

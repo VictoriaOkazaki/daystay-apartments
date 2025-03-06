@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="ru">
       <body
         className={`${gothicA1.variable} ${prata.variable} ${marckScript.variable} antialiased 
-        text-text font-gothicA1 bg-mainBg`}
+        text-text font-gothic-a1 bg-main-bg`}
       >
         {children}
       </body>

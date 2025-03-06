@@ -10,7 +10,7 @@ export default function AdvColsRight() {
       <div
         className="flex flex-col justify-between relative
       w-full bg-yellow 
-      rounded-radiusMob lg:rounded-radius p-[4.27vw] lg:p-[2.08vw] pb-0 lg:pb-0 h-[30vh] md:h-[50vh] lg:h-[63%]"
+      rounded-radius-mob lg:rounded-radius p-[4.27vw] lg:p-[2.08vw] pb-0 lg:pb-0 h-[30vh] md:h-[50vh] lg:h-[63%]"
       >
         <div>
           <h3 className="text-xl lg:text-3xl font-prata">
@@ -37,7 +37,7 @@ export default function AdvColsRight() {
       </div>
       <div
         className="w-full bg-red flex flex-col justify-between
-      rounded-radiusMob lg:rounded-radius p-[4.27vw] lg:p-[2.08vw] grow mt-5"
+      rounded-radius-mob lg:rounded-radius p-[4.27vw] lg:p-[2.08vw] grow mt-5"
       >
         <h3 className="text-xl lg:text-3xl font-prata">
           Вы почувствуете себя настоящим{" "}

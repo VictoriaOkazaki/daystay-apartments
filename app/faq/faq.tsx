@@ -17,7 +17,7 @@ export default function Faq() {
         Ответы на частые вопросы
       </h2>
       <div
-        className="mt-insideMob lg:mt-inside grid grid-cols-1 lg:grid-cols-2 gap-[1.5vh] lg:gap-[1.3vw]"
+        className="mt-inside-mob lg:mt-inside grid grid-cols-1 lg:grid-cols-2 gap-[1.5vh] lg:gap-[1.3vw]"
         style={{ gridAutoRows: "min-content" }}
       >
         {faqData.map((faq, index) => (

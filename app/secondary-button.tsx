@@ -16,7 +16,7 @@ export default function SecondaryButton({
       className={clsx(
         `w-fit bg-acsent2 py-5 px-10 lg:py-6 lg:px-12 text-base lg:text-2xl font-prata
       flex items-center justify-between
-      rounded-radiusMob lg:rounded-radius
+      rounded-radius-mob lg:rounded-radius
   hover:scale-105 transition ease-in-out`,
         className
       )}

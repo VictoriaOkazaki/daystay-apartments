@@ -1,7 +1,7 @@
 import { Gothic_A1, Prata, Marck_Script } from "next/font/google";
 
 export const gothicA1 = Gothic_A1({
-  variable: "--font-gothicA1",
+  variable: "--font-gothic-a1",
   subsets: ["latin", "cyrillic"],
   weight: ["400"],
 });

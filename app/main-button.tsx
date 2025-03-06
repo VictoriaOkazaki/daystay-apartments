@@ -17,9 +17,9 @@ export default function MainButton({
       onClick={onClick}
       type={type}
       className={clsx(
-        `self-start bg-acsent font-prata text-mainBg 
-      hover:scale-105 transition ease-in-out px-[8.55vw] py-[4.28vw] lg:px-[3.13vw] lg:py-[1.57vw]
-      rounded-radiusMob lg:rounded-radius text-base lg:text-2xl`,
+        `self-start bg-acsent font-prata text-main-bg text-left
+      hover:scale-105 transition ease-in-out px-[6vw] py-[3vw] lg:px-[3.13vw] lg:py-[1.57vw]
+      rounded-radius-mob lg:rounded-radius text-base lg:text-2xl`,
         className
       )}
     >

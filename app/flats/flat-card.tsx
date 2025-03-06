@@ -14,7 +14,7 @@ export default function FlatCard({ flat }: { flat: FlatDetails }) {
   return (
     <button
       onClick={handleCardClick}
-      className="relative flex flex-col text-left rounded-radiusMob lg:rounded-radius overflow-hidden bg-bg"
+      className="relative flex flex-col text-left rounded-radius-mob lg:rounded-radius overflow-hidden bg-bg"
     >
       <div
         className="absolute text-acsent font-prata text-2xl lg:text-3xl bg-bg2 bg-opacity-70 
@@ -32,7 +32,7 @@ export default function FlatCard({ flat }: { flat: FlatDetails }) {
       <h3 className="font-prata text-xl my-[1.5vh] w-full lg:w-[90%] px-[5%]">
         {flat.name}
       </h3>
-      <ul className="grid grid-cols-2 bg-mainBg rounded-radius py-[1vh] px-[5%] w-full">
+      <ul className="grid grid-cols-2 bg-main-bg rounded-radius py-[1vh] px-[5%] w-full">
         <li className="text-lg lg:text-xl">{flat.area} м2</li>
         <li className="text-lg lg:text-xl">
           {flat.floor}/{flat.maxFloor} этаж

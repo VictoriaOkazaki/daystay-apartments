@@ -13,7 +13,7 @@ export default function Hero() {
     >
       <div
         className="flex bg-bg2 
-        rounded-radiusMob lg:rounded-radius
+        rounded-radius-mob lg:rounded-radius
       h-[60vh] sm:h-[80vh] lg:h-fit p-[4.27vw] lg:p-[2.08vw] w-full lg:w-[60%]"
       >
         <HeroVertical />
@@ -24,7 +24,7 @@ export default function Hero() {
           height="100%"
           src="/images/home-img.png"
           alt="torgovaya"
-          className="rounded-radiusMob lg:rounded-radius"
+          className="rounded-radius-mob lg:rounded-radius"
           priority={true}
         />
       </div>
