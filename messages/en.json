@@ -1,0 +1,136 @@
+{
+    "HomePage": {
+        "burger": "Book now",
+        "menu": {
+            "adv": "Advantages",
+            "flats": "Flats",
+            "service": "Services",
+            "faq": "FAQ",
+            "contact": "Contacts",
+            "home": "Home"
+        },
+        "hero": {
+            "vertical": "We are on social media",
+            "span": "Historic buildings, cozy little courtyards, high ceilings\u00A0— an authentic city atmosphere",
+            "offerPart1": "Rent an apartment daily on",
+            "offerPart2": "Torgovaya",
+            "offerPart3": "—\u00A0right in the heart of Baku",
+            "button": "Book now"
+        },
+        "heroAdvantages": {
+            "adv1": "Secure transactions",
+            "adv2": "Convenient location",
+            "adv3": "Guest care and 24/7 support",
+            "adv4": "Fully equipped apartments"
+        },
+        "advantages": {
+            "title": "What you get by staying in the heart of Baku",
+            "card1Title": "Cafés and restaurants for every taste and budget",
+            "card1Text": "Here you will find high-class restaurants, fast food establishments, coffee shops, bars, and cafés serving both national and international cuisine.",
+            "card2Title": "Tourist-friendly environment",
+            "card2Text": "Staff in restaurants and shops speak English. Additionally, many travel agencies are located nearby in Icherisheher.",
+            "card3Title": "Shops where you can buy everything",
+            "card3Text": "Souvenirs, paintings by local artists, clothing, accessories, national sweets, groceries — everything you need is within reach.",
+            "card4Title": "Close to city sights",
+            "card4Text": "Many architectural landmarks, museums, and parks are within walking distance. Others can be easily reached by taxi, bus, or metro.",
+            "card4Btn": "Baku sights",
+            "card5Title1": "You will feel like a true",
+            "card5Title2": "Bakuvian",
+            "card5Text": "By renting an apartment on Torgovaya, you will fully immerse yourself in the city's atmosphere. You will experience both the modern and historical sides of Baku and always be at the heart of its cultural life."
+        },
+        "flats": {
+            "button": "All options",
+            "headingTitle1": "Our",
+            "headingTitle2": "cozy",
+            "headingTitle3": "apartments",
+            "variant1": "Number of rooms",
+            "variant2": "Sleeping places",
+            "rangeFrom": "Price from",
+            "rangeTo": "to",
+            "searchBtn": "Search",
+            "error1": "You forgot to set all filters",
+            "error2": "We have no options for your request. Try adjusting the parameters.",
+            "area": "m²",
+            "floor": "floor"
+        },
+        "services": {
+            "title1": "We",
+            "title2": "care",
+            "title3": "about our guests and help with everything"
+        },
+        "gallery": {
+            "card1Title": "Day-Stay has been renting apartments in Baku for short-term stays since 2015",
+            "card1Text": "and is not just an intermediary, but fully supports its clients",
+            "card2Title": "Torgovaya, also known as Fountain Square, also Nizami Street",
+            "card3Title": "We have hosted guests from all over the world",
+            "card5Title": "The best location in the city"
+        },
+        "faq": {
+            "title": "Frequently asked questions"
+        },
+        "contacts": {
+            "title": "Have questions or need help choosing",
+            "title2": "an apartment",
+            "subtitle": "How to contact us",
+            "adress": "Uzeyir Hajibeyov Street, Building 7, Apartment 16/26 (entrance from the street)",
+            "adress-desc": "Near Baku Book Center and Olivia store, opposite Bravo supermarket and ATB Bank",
+            "map-adress": "Uzeyir Hajibeyov Street, Building 7"
+        },
+        "form": {
+            "title": "Leave a request, and we will contact you within 30 minutes",
+            "suc-message": "Message sent successfully! Our manager will contact you within an hour",
+            "pl-name": "Name",
+            "pl-phone": "Phone",
+            "send-btn": "Send"
+        },
+        "footer": {
+            "menu": "Menu",
+            "photo": "Photo",
+            "developer": "Website development",
+            "privacy": "Privacy policy"
+        }
+    },
+    "FlatPage": {
+        "view": "View from the window",
+        "sleeping-desc": "Sleeping places",
+        "main": "Main amenities",
+        "lift": "Elevator",
+        "parking": "Parking",
+        "conditioner": "Air conditioner",
+        "tv": "Television",
+        "textile": "Towels, bed linen",
+        "washing-ma": "Washing machine",
+        "iron": "Iron",
+        "kitchen": "Kitchen",
+        "kettle": "Kettle",
+        "fridge": "Refrigerator",
+        "gas": "Gas stove",
+        "microwave": "Microwave",
+        "dishes": "Dishes and cutlery",
+        "bathroom": "Bathroom",
+        "hair-dryer": "Hair dryer",
+        "shower": "Shower",
+        "slippers": "Slippers",
+        "toiletries": "Toiletries",
+        "per-day": "per day",
+        "book-btn": "Book now",
+        "question-btn": "Ask a question",
+        "others-btn": "View other options"
+    },
+    "BookingPage": {
+        "title": "Booking process",
+        "choose-date": "Select your stay dates",
+        "form-error": "Not all fields are filled",
+        "form-title": "Enter your contact details",
+        "name": "Name",
+        "phone": "Phone number",
+        "choose-time": "Specify your approximate arrival time",
+        "available": "Check-in available 24/7",
+        "selected-time": "Selected time",
+        "textarea": "Additional information or comments",
+        "to-payment-btn": "Proceed to payment and complete booking",
+        "arrive-time": "Arrival time",
+        "cost-per": "Accommodation cost for"
+    }
+
+}
