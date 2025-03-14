@@ -61,7 +61,7 @@ export async function GET(request: NextRequest) {
   return NextResponse.json(bookings, { status: 200 });
 }
 
-export async function PUT(request: NextResponse) {
+export async function PUT(request: NextRequest) {
   const url = new URL(request.url);
   const bookingId = url.searchParams.get("id");
 
