@@ -26,7 +26,7 @@ export async function POST(req: NextRequest) {
   return NextResponse.json({ bookingId: docRef.id }, { status: 200 });
 }
 
-export async function GET(request: NextResponse) {
+export async function GET(request: NextRequest) {
   const url = new URL(request.url);
   const bookingId = url.searchParams.get("id");
 
